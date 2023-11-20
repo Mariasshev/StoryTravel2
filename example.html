@@ -1,0 +1,249 @@
+<!-- Code By Webdevtrick ( https://webdevtrick.com ) -->
+<html lang="en" >
+<head>
+    <style>
+        .demo {
+            width:350px;
+            margin:0 auto;
+        }
+        #lightSlider {
+            list-style: none outside none;
+            padding-left: 0;
+            margin-bottom:0;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li {
+            opacity: 0.5;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li.active {
+            opacity: 1;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li{
+            border-radius: 0;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active:hover, .lSSlideOuter .lSPager.lSGallery li:hover {
+            border-radius: 0;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery img {
+            display: block;
+            height: 64px;
+            max-width: 100%;
+        }
+
+        .container-india-img {
+            width: 350px;
+            margin:0 auto;
+        }
+
+        .block-india {
+            width: 100%;
+            height:0;
+            padding: 0 0 100%;
+            position:relative;
+        }
+        .block-india img {
+            position:absolute;
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .bright-img{
+            background: #000;
+            transition: 0.5s
+        }
+        .bright-img img{
+            opacity: 0.8;
+            transition: 0.5s
+        }
+        .bright-img:hover{
+            filter: brightness(1.2);
+            transition: 0.4s ease;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Product Slider | Webdevtrick.com</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 pb-4">
+
+            <!--<div class="container-india-img">
+                <div class="bright-img block-india">
+                    <img class="" src="img/img-india-1.jpg" alt="">
+                    <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner">
+                        <p class="text-white fs-1 mb-0 shadow_text">Індія</p>
+                        <p class="text-white fs-5 shadow_text">Березень 2018</p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="main-wrapper">
+                <div class="demo">
+                    <ul id="lightSlider">
+                        <li>
+                            <a href="img/india-img-2.jpg" data-fancybox="gallery">
+                                <div class="container-india-img">
+                                    <div class="bright-img block-india">
+                                        <img class="" src="img/img-india-1.jpg" alt="">
+                                        <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
+                                            <p class="text-white fs-1 mb-0 shadow_text">Індія</p>
+                                            <p class="text-white fs-5 shadow_text">Березень 2018</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/hardware.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/hardware.jpg" />
+                            </a>
+                        </li>
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/gadget.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/gadget.jpg" />
+                            </a>
+                        </li>
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/design.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/design.jpg" />
+                            </a>
+                        </li>
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/cons.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/cons.jpg" />
+                            </a>
+                        </li>
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/auto.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/auto.jpg" />
+                            </a>
+                        </li>
+                        <li style="display: none;">
+                            <a href="https://webdevtrick.com/wp-content/uploads/black-background.jpg" data-fancybox="gallery">
+                                <img src="https://webdevtrick.com/wp-content/uploads/black-background.jpg" />
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+
+<div class="main-wrapper">
+    <div class="demo">
+        <ul id="lightSlider">
+            <li>
+                <a href="img/india-img-2.jpg" data-fancybox="gallery">
+                    <img src="img/india-img-2.jpg" />
+                </a>
+            </li>
+
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/hardware.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/hardware.jpg" />
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/gadget.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/gadget.jpg" />
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/design.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/design.jpg" />
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/cons.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/cons.jpg" />
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/auto.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/auto.jpg" />
+                </a>
+            </li>
+            <li style="display: none;">
+                <a href="https://webdevtrick.com/wp-content/uploads/black-background.jpg" data-fancybox="gallery">
+                    <img src="https://webdevtrick.com/wp-content/uploads/black-background.jpg" />
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+-->
+
+
+<script>
+    $ = jQuery;
+    $( document ).ready(function() {
+
+        $h_slider_options =  {
+            gallery: true,
+            item: 1,
+            loop:true,
+            slideMargin: 0,
+            thumbItem: 6,
+            galleryMargin: 10,
+            thumbMargin: 10,
+        };
+
+        $v_slider_options = {
+            gallery: true,
+            item: 1,
+            loop:true,
+            slideMargin: 0,
+            thumbItem: 6,
+            galleryMargin: 10,
+            thumbMargin: 10,
+            vertical: true
+        };
+
+        h_slider = $('#lightSlider').lightSlider($h_slider_options);
+        v_slider = $('#lightSliderVertical').lightSlider($v_slider_options);
+
+        $selector = '#lightSlider li:not(".clone") a';
+        $selector += ',#lightSliderVertical li:not(".clone") a';
+        $().fancybox({
+            selector : $selector,
+            backFocus : false,
+            buttons : [
+                'slideShow',
+                'share',
+                'zoom',
+                'fullScreen',
+                'thumbs',
+                'download',
+                'close'
+            ]
+        });
+    });
+
+    $( window ).resize(function() {
+        slider.destroy();
+        h_slider = $('#ocassions-slider').lightSlider(h_slider_options);
+    });
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'></script>
+
+
+</body>
+</html>
