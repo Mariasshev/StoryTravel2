@@ -31,7 +31,7 @@
             <div class="col-md-2 col-12 py-1 align-items-center border-start">
                 <div class="row justify-content-center text-center text-md-start">
                     <div class="col-3 col-md-12 mb-md-3 text-md-start text-end">
-                        <a href="../index.php" class="footer-text">Подорожі</a>
+                        <a href="../index.html" class="footer-text">Подорожі</a>
                     </div>
                     <div class="col-3 col-md-12 mb-md-3 text-md-start">
                         <a href="../pages/stories.php" class="footer-text">Історії </a>

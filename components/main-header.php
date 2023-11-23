@@ -2,7 +2,7 @@
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-sm">
             <div class="d-md-flex pb-3 py-sm-0 align-content-center">
-                <a class="navbar-brand logo-img logo-sm-device" href="../index.php" id="#image"></a>
+                <a class="navbar-brand logo-img logo-sm-device" href="../index.html" id="#image"></a>
                 <div class="btn d-block d-sm-none" onclick="Change(this)" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                     <div class="position-absolute top-50 translate-middle-y d-block d-sm-none">
                         <div class="bar1 mb-1"></div>
@@ -15,7 +15,7 @@
                         <ul class="text-center">
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../index.php">Подорожі</a>
+                                    <a class="textChangeColor" href="../index.html">Подорожі</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -63,7 +63,7 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
-                    <a href="../index.php" class="nav-item nav-link text-white">Подорожі</a>
+                    <a href="../index.html" class="nav-item nav-link text-white">Подорожі</a>
                     <a href="../pages/stories.php" class="nav-item nav-link text-white">Історії</a>
                     <a href="../pages/about.php" class="nav-item nav-link text-white">Про мене</a>
                     <a class="nav-link text-white" href="">

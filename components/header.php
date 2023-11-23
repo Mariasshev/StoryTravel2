@@ -16,7 +16,7 @@
                         <ul class="text-center">
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../index.php">Подорожі</a>
+                                    <a class="textChangeColor" href="../index.html">Подорожі</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -64,7 +64,7 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
-                    <a href="../index.php" class="nav-item nav-link textChangeColor">Подорожі</a>
+                    <a href="../index.html" class="nav-item nav-link textChangeColor">Подорожі</a>
                     <a href="../pages/stories.php" class="nav-item nav-link textChangeColor">Історії</a>
                     <a href="../pages/about.php" class="nav-item nav-link textChangeColor">Про мене</a>
                     <a class="nav-link textChangeColor" href="">
