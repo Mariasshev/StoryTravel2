@@ -96,7 +96,7 @@ include 'components/main-header.php';
                 <!--1.1 first img-->
                 <div class="col-lg-4 col-md-6 col-sm-4 col-xs-12">
                     <div class="position-relative size">
-                        <a href="india.php">
+                        <a href="pages/india.php">
                         <div class="bg-img size">
                             <img class="img-fluid " src="img/india-1.1.jpg" alt="">
                             <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner">
@@ -140,7 +140,7 @@ include 'components/main-header.php';
                                 </div>
                             </div>
                             <div class="text-center text-white label-green inner position-absolute start-0" >
-                                <a class="fs-7 text-white" href="switzerland.php">Залишилось 4 місця</a>
+                                <a class="fs-7 text-white" href="">Залишилось 4 місця</a>
                             </div>
                         </a>
                     </div>

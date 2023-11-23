@@ -9,14 +9,12 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="../img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-
-    <link href="css/main.css" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -24,13 +22,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
 
     <!-- jQuery 1.8 or later, 33 KB -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -44,7 +42,7 @@
 <body>
 <!-- Navbar Start -->
 <?php
-include 'components/header.php';
+include '../components/header.php';
 ?>
 <!-- Navbar End -->
 
@@ -56,8 +54,8 @@ include 'components/header.php';
         <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
             <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/1.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/1.jpg" alt="">
+                        <a href="../img/1.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/1.jpg" alt="">
                         </a>
                     </div>
                 <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -70,8 +68,8 @@ include 'components/header.php';
             <!--2-->
         <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
             <div class="bright-img">
-                <a href="img/2.jpg" class="" data-lightbox="travels">
-                    <img class="img img-fluid" src="img/2.jpg" alt="" >
+                <a href="../img/2.jpg" class="" data-lightbox="travels">
+                    <img class="img img-fluid" src="../img/2.jpg" alt="" >
                 </a>
                 <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                     <p class="text-white fs-1 mb-0 shadow_text">Каппадокія</p>
@@ -83,8 +81,8 @@ include 'components/header.php';
         <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
             <div class="position-relative">
                 <div class="dark-image">
-                    <a href="img/3.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/3.jpg" alt="">
+                    <a href="../img/3.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/3.jpg" alt="">
                     </a>
                 </div>
                 <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -97,8 +95,8 @@ include 'components/header.php';
             <!--4-->
         <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
             <div class="bright-img">
-                <a href="img/4.jpg" class="" data-lightbox="travels">
-                    <img class="img img-fluid" src="img/4.jpg" alt="" >
+                <a href="../img/4.jpg" class="" data-lightbox="travels">
+                    <img class="img img-fluid" src="../img/4.jpg" alt="" >
                 </a>
                 <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                     <p class="text-white fs-1 mb-0 shadow_text">Грузія</p>
@@ -111,8 +109,8 @@ include 'components/header.php';
             <!--second section-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/5.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/5.jpg" alt="" >
+                    <a href="../img/5.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/5.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Карпати</p>
@@ -125,8 +123,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/6.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/6.jpg" alt="">
+                        <a href="../img/6.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -142,8 +140,8 @@ include 'components/header.php';
             <!--3-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/7.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/7.jpg" alt="" >
+                    <a href="../img/7.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/7.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Ісландія</p>
@@ -155,8 +153,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/8.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/8.jpg" alt="">
+                        <a href="../img/8.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/8.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -176,8 +174,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/9.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/9.jpg" alt="">
+                        <a href="../img/9.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/9.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -196,8 +194,8 @@ include 'components/header.php';
             <!--2-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/10.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/10.jpg" alt="" >
+                    <a href="../img/10.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/10.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Закарпаття</p>
@@ -209,8 +207,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/11.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/11.jpg" alt="">
+                        <a href="../img/11.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/11.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -227,8 +225,8 @@ include 'components/header.php';
             <!--4-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/12.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/12.jpg" alt="" >
+                    <a href="../img/12.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/12.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Індія</p>
@@ -241,8 +239,8 @@ include 'components/header.php';
             <!--forth section-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/13.jpeg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/13.jpeg" alt="" >
+                    <a href="../img/13.jpeg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/13.jpeg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Каппадокія</p>
@@ -255,8 +253,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/14.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/14.jpg" alt="">
+                        <a href="../img/14.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/14.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -272,8 +270,8 @@ include 'components/header.php';
             <!--3-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/15.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/15.jpg" alt="" >
+                    <a href="../img/15.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/15.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Грузія</p>
@@ -285,8 +283,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/16.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/16.jpg" alt="">
+                        <a href="../img/16.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/16.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -306,8 +304,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/17.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/17.jpg" alt="">
+                        <a href="../img/17.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/17.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -329,8 +327,8 @@ include 'components/header.php';
             <!--2-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/18.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/18.jpg" alt="" >
+                    <a href="../img/18.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/18.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Карпати</p>
@@ -342,8 +340,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/19.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/19.jpg" alt="">
+                        <a href="../img/19.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/19.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -359,8 +357,8 @@ include 'components/header.php';
             <!--4-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/20.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/20.jpg" alt="" >
+                    <a href="../img/20.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/20.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Грузія</p>
@@ -373,8 +371,8 @@ include 'components/header.php';
             <!--sixth section-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/21.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/21.jpg" alt="" >
+                    <a href="../img/21.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/21.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Карпати</p>
@@ -387,8 +385,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/22.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/22.jpg" alt="">
+                        <a href="../img/22.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/22.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -406,8 +404,8 @@ include 'components/header.php';
             <!--3-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/23.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/23.jpg" alt="" >
+                    <a href="../img/23.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/23.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Індія</p>
@@ -419,8 +417,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/24.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/24.jpg" alt="">
+                        <a href="../img/24.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/24.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -442,8 +440,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/25.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/25.jpg" alt="">
+                        <a href="../img/25.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/25.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -461,8 +459,8 @@ include 'components/header.php';
             <!--2-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/26.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/26.jpg" alt="" >
+                    <a href="../img/26.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/26.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Закарпаття</p>
@@ -474,8 +472,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/27.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/27.jpg" alt="">
+                        <a href="../img/27.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/27.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -493,8 +491,8 @@ include 'components/header.php';
             <!--4-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/28.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/28.jpg" alt="" >
+                    <a href="../img/28.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/28.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Грузія</p>
@@ -507,8 +505,8 @@ include 'components/header.php';
             <!--eighth section-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/29.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/29.jpg" alt="" >
+                    <a href="../img/29.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/29.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Карпати</p>
@@ -521,8 +519,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/30.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/30.jpg" alt="">
+                        <a href="../img/30.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/30.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -539,8 +537,8 @@ include 'components/header.php';
             <!--3-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/31.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/31.jpg" alt="" >
+                    <a href="../img/31.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/31.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Закарпаття</p>
@@ -552,8 +550,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/32.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/32.jpg" alt="">
+                        <a href="../img/32.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/32.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -571,8 +569,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel ">
                 <div class="position-relative">
                     <div class="dark-image" >
-                        <a href="img/33.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/33.jpg" alt="">
+                        <a href="../img/33.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/33.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -589,8 +587,8 @@ include 'components/header.php';
             <!--2-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/34.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/34.jpg" alt="" >
+                    <a href="../img/34.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/34.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Карпати</p>
@@ -602,8 +600,8 @@ include 'components/header.php';
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel">
                 <div class="position-relative">
                     <div class="dark-image">
-                        <a href="img/35.jpg" class="" data-lightbox="travels">
-                            <img class="img img-fluid" src="img/35.jpg" alt="">
+                        <a href="../img/35.jpg" class="" data-lightbox="travels">
+                            <img class="img img-fluid" src="../img/35.jpg" alt="">
                         </a>
                     </div>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle w-100 text-justify shadow_text">
@@ -621,8 +619,8 @@ include 'components/header.php';
             <!--4-->
             <div class="col-3 col-sm-3 col-md-6 col-lg-3 panel position-relative">
                 <div class="bright-img">
-                    <a href="img/36.jpg" class="" data-lightbox="travels">
-                        <img class="img img-fluid" src="img/36.jpg" alt="" >
+                    <a href="../img/36.jpg" class="" data-lightbox="travels">
+                        <img class="img img-fluid" src="../img/36.jpg" alt="" >
                     </a>
                     <div class="position-absolute d-inline text-center top-50 start-50 translate-middle">
                         <p class="text-white fs-1 mb-0 shadow_text">Індія</p>
@@ -631,8 +629,6 @@ include 'components/header.php';
                 </div>
             </div>
 
-
-
             <!--end of the row-->
         </div>
     </div>
@@ -640,21 +636,21 @@ include 'components/header.php';
 
 <!-- Footer Start -->
 <?php
-include 'components/footer.php';
+include '../components/footer.php';
 ?>
 <!-- Footer End -->
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/custom.js" type="modal"></script>
+    <script src="../js/custom.js" type="modal"></script>
 </body>
 
 </html>

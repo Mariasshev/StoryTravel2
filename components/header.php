@@ -21,12 +21,12 @@
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../stories.php">Історії</a>
+                                    <a class="textChangeColor" href="../pages/stories.php">Історії</a>
                                 </span>
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../about.php">Про мене</a>
+                                    <a class="textChangeColor" href="../pages/about.php">Про мене</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -65,8 +65,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
                     <a href="../index.php" class="nav-item nav-link textChangeColor">Подорожі</a>
-                    <a href="../stories.php" class="nav-item nav-link textChangeColor">Історії</a>
-                    <a href="../about.php" class="nav-item nav-link textChangeColor">Про мене</a>
+                    <a href="../pages/stories.php" class="nav-item nav-link textChangeColor">Історії</a>
+                    <a href="../pages/about.php" class="nav-item nav-link textChangeColor">Про мене</a>
                     <a class="nav-link textChangeColor" href="">
                         <i class="bi bi-instagram"></i>
                     </a>
@@ -90,7 +90,7 @@
                                 <a href="../#travels" class="nav-item nav-link textChangeColor">Подорожі</a>
                             </div>
                             <div class="col-12">
-                                <a href="../stories.php" class="nav-item nav-link textChangeColor">Історії</a>
+                                <a href="../pages/stories.php" class="nav-item nav-link textChangeColor">Історії</a>
                             </div>
                             <div class="col-12">
                                 <a href="../about.php" class="nav-item nav-link textChangeColor">Про мене</a>

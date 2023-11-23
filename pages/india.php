@@ -9,27 +9,26 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="../img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;600;700&display=swap" rel="stylesheet">
 
-    <link href="css/main.css" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>  <!--библиотека слайдшоу-->
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="css/slideshow.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <link href="../css/slideshow.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
 
@@ -39,7 +38,7 @@
 
 <!-- Navbar Start -->
 <?php
-include 'components/main-header.php';
+include '../components/main-header.php';
 ?>
 <!-- Navbar End -->
 
@@ -126,7 +125,7 @@ include 'components/main-header.php';
                         <div class="modal-content">
                             <div class="row">
                                 <div class="col-6">
-                                    <img src="img/india_form.jpg" alt="" class="img-fluid">
+                                    <img src="../img/india_form.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="col-6 bg-white position-relative">
                                     <button type="button" class="btn-close position-absolute top-0 end-0 pt-4 pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -136,7 +135,7 @@ include 'components/main-header.php';
                                     <div class="modal-body">
                                         <div class="input-group mb-3">
                                             <select class="form-select" id="inputGroupSelect01" required>
-                                                <option selected>Дати подорожі</option>
+                                                <option class="selected" >Дати подорожі</option>
                                                 <option>24.02.2023 - 10.03.2023</option>
                                             </select>
                                         </div>
@@ -175,7 +174,7 @@ include 'components/main-header.php';
     <div class="container-fluid text-center">
         <div class="row px-md-1 px-0 pt-5 pb-5">
             <div class="col-xl-4 d-none d-xl-block d-xxl-block text-start p-0">
-                <img class="" style="max-width: 463px;" src="img/title_exp_l.png" alt=""  >
+                <img class="" style="max-width: 463px;" src="../img/title_exp_l.png" alt=""  >
             </div>
             <div class="col-xl-4 col-12 d-flex align-items-center justify-content-center p-0">
                 <div class="text-center color-orange-light display-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -184,7 +183,7 @@ include 'components/main-header.php';
             </div>
             <div class="col-xl-4 d-none d-xl-block d-xxl-block text-end p-0">
                 <img class="" style="max-width: 463px; z-index: -100"
-                     src="img/title_exp_r.png" alt="">
+                     src="../img/title_exp_r.png" alt="">
             </div>
         </div>
     </div>
@@ -197,7 +196,7 @@ include 'components/main-header.php';
     <div class="container-fluid">
         <div class="row">
             <div class="col-4 ps-0">
-                <img src="img/swi_map.png" alt="" class="img-fluid">
+                <img src="../img/swi_map.png" alt="" class="img-fluid">
             </div>
             <div class="col-4 pb-5 ps-0">
                 <div class="pb-3 fs-5">
@@ -281,13 +280,13 @@ include 'components/main-header.php';
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/india-1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-2.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-3.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -348,13 +347,13 @@ include 'components/main-header.php';
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/india-1.1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.2.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.3.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -381,13 +380,13 @@ include 'components/main-header.php';
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/india-1.1.1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.1.2.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.2.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.1.3.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.3.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
@@ -443,10 +442,10 @@ include 'components/main-header.php';
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/india-1.1.1.1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.1.1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.1.1.2.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.1.2.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
@@ -472,10 +471,10 @@ include 'components/main-header.php';
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/india-1.1.1.1.1.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.1.1.1.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/india-1.1.1.1.2.jpg" class="d-block w-100" alt="...">
+                                    <img src="../img/india-1.1.1.1.2.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
@@ -519,7 +518,7 @@ include 'components/main-header.php';
                 <div class="row">
                     <div class="col-12 pb-3">
                         <div class="img-container wow fadeInUp" data-wow-delay="0.1s">
-                            <img src="img/india-img-1.jpg" alt="" class="img-fluid">
+                            <img src="../img/india-img-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 text-center wow">
@@ -533,7 +532,7 @@ include 'components/main-header.php';
                 <div class="row">
                     <div class="col-12 pb-3">
                         <div class="img-container wow fadeInUp" data-wow-delay="0.2s">
-                            <img src="img/india-img-2.jpg" alt="" class="img-fluid">
+                            <img src="../img/india-img-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 text-center">
@@ -547,7 +546,7 @@ include 'components/main-header.php';
                 <div class="row">
                     <div class="col-12 pb-3">
                         <div class="img-container wow fadeInUp" data-wow-delay="0.3s">
-                            <img src="img/india-img-3.jpg" alt="" class="img-fluid">
+                            <img src="../img/india-img-3.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 text-center">
@@ -570,10 +569,10 @@ include 'components/main-header.php';
 
                 <ul id="lightSlider">
                     <li class="a-slide">
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
                             <div class="container-india-img">
                                 <div class="bright-img block-india">
-                                    <img src="img/img-india-1.jpg" alt="">
+                                    <img src="../img/img-india-1.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
                                         <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
                                         <p class="text-white fs-5 shadow_text fw-bold">Листопад 2018</p>
@@ -583,18 +582,18 @@ include 'components/main-header.php';
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-1.jpg" />
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-1.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                 </ul>
@@ -604,10 +603,10 @@ include 'components/main-header.php';
 
                 <ul id="lightSlider">
                     <li>
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
                             <div class="container-india-img">
                                 <div class="bright-img block-india">
-                                    <img src="img/img-india-2.jpg" alt="">
+                                    <img src="../img/img-india-2.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
                                         <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
                                         <p class="text-white fs-5 shadow_text fw-bold">Березень 2017</p>
@@ -617,18 +616,18 @@ include 'components/main-header.php';
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-1.jpg" />
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-1.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                 </ul>
@@ -638,10 +637,10 @@ include 'components/main-header.php';
 
                 <ul id="lightSlider">
                     <li>
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery" class="a-slide">
                             <div class="container-india-img">
                                 <div class="bright-img block-india">
-                                    <img src="img/img-india-3.jpg" alt="">
+                                    <img src="../img/img-india-3.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
                                         <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
                                         <p class="text-white fs-5 shadow_text fw-bold">Березень 2015</p>
@@ -651,18 +650,18 @@ include 'components/main-header.php';
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-1.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-1.jpg" />
+                        <a href="../img/slidshow-india-1.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-1.jpg" />
                         </a>
                     </li>
                     <li style="display: none;">
-                        <a href="img/slidshow-india-2.jpg" data-fancybox="gallery">
-                            <img src="img/slidshow-india-2.jpg" />
+                        <a href="../img/slidshow-india-2.jpg" data-fancybox="gallery">
+                            <img src="../img/slidshow-india-2.jpg" />
                         </a>
                     </li>
                 </ul>
@@ -679,7 +678,7 @@ include 'components/main-header.php';
         <h5 class="text-gray fw-bold pb-5 text-center wow fadeInUp" data-wow-delay="0.1s">Автор пригод та супроводжуючий</h5>
         <div class="row">
             <div class="col-sm-12 col-lg-6 text-center">
-                <img src="img/team_sviat.jpg" alt="" width="510" height="500" class="img-fluid">
+                <img src="../img/team_sviat.jpg" alt="" width="510" height="500" class="img-fluid">
             </div>
             <div class="col-sm-12 col-lg-6 text-center mt-md-5 pb-md-5 mt-2 mb-5 pb-5">
                 <a href="https://www.instagram.com/sviatofor"><i class="bi bi-instagram icon-color fs-4 me-3"></i></a>
@@ -862,7 +861,7 @@ include 'components/main-header.php';
 
 <!-- Footer Start -->
 <?php
-include 'components/footer.php';
+include '../components/footer.php';
 ?>
 <!-- Footer End -->
 
@@ -870,11 +869,11 @@ include 'components/footer.php';
 <!-- JavaScript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/lightbox/js/lightbox.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/waypoints/waypoints.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../lib/lightbox/js/lightbox.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js'></script>
 
@@ -885,9 +884,9 @@ include 'components/footer.php';
 
 <!-- Template Javascript -->
 <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>-->
-<script src="js/main.js"></script>
-<script src="js/custom.js"></script>
-<script  src="js/slideshow.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/custom.js"></script>
+<script  src="../js/slideshow.js"></script>
 </body>
 
 </html>

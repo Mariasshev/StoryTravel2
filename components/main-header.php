@@ -2,7 +2,7 @@
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-sm">
             <div class="d-md-flex pb-3 py-sm-0 align-content-center">
-                <a class="navbar-brand logo-img logo-sm-device" href="index.html" id="#image"></a>
+                <a class="navbar-brand logo-img logo-sm-device" href="../index.php" id="#image"></a>
                 <div class="btn d-block d-sm-none" onclick="Change(this)" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                     <div class="position-absolute top-50 translate-middle-y d-block d-sm-none">
                         <div class="bar1 mb-1"></div>
@@ -20,12 +20,12 @@
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../stories.php">Історії</a>
+                                    <a class="textChangeColor" href="../pages/stories.php">Історії</a>
                                 </span>
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../about.php">Про мене</a>
+                                    <a class="textChangeColor" href="../pages/about.php">Про мене</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -64,8 +64,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
                     <a href="../index.php" class="nav-item nav-link text-white">Подорожі</a>
-                    <a href="../stories.php" class="nav-item nav-link text-white">Історії</a>
-                    <a href="../about.php" class="nav-item nav-link text-white">Про мене</a>
+                    <a href="../pages/stories.php" class="nav-item nav-link text-white">Історії</a>
+                    <a href="../pages/about.php" class="nav-item nav-link text-white">Про мене</a>
                     <a class="nav-link text-white" href="">
                         <i class="bi bi-instagram"></i>
                     </a>

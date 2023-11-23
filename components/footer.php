@@ -6,7 +6,7 @@
                 <div class="row justify-content-center text-center text-md-start">
                     <div class="col-12 ">
                         <div class="my-3 ">
-                            <img src="img/light-logo.svg" alt="" width="130" height="28">
+                            <img src="../img/light-logo.svg" alt="" width="130" height="28">
                         </div>
                     </div>
                     <div class="col-12">
@@ -34,10 +34,10 @@
                         <a href="../index.php" class="footer-text">Подорожі</a>
                     </div>
                     <div class="col-3 col-md-12 mb-md-3 text-md-start">
-                        <a href="../stories.php" class="footer-text">Історії </a>
+                        <a href="../pages/stories.php" class="footer-text">Історії </a>
                     </div>
                     <div class="col-3 col-md-12 mb-md-3 text-md-start text-start">
-                        <a href="../about.php" class="footer-text">Про мене</a>
+                        <a href="../pages/about.php" class="footer-text">Про мене</a>
                     </div>
                 </div>
             </div>
