@@ -178,7 +178,7 @@ include 'components/main-header.php';
                 <img class="" style="max-width: 463px;" src="img/title_exp_l.png" alt=""  >
             </div>
             <div class="col-xl-4 col-12 d-flex align-items-center justify-content-center p-0">
-                <div class="text-center color-orange-light display-4">
+                <div class="text-center color-orange-light display-4 wow fadeInUp" data-wow-delay="0.1s">
                     Дати і умови
                 </div>
             </div>
@@ -201,7 +201,7 @@ include 'components/main-header.php';
             </div>
             <div class="col-4 pb-5 ps-0">
                 <div class="pb-3 fs-5">
-                    <h3 class="color-orange pb-2 fw-bold ms-1">Дати та вартість</h3>
+                    <h3 class="color-orange pb-2 fw-bold ms-1 wow fadeInUp" data-wow-delay="0.1s">Дати та вартість</h3>
                     <ul class="ps-0">
                         <li>
                             <i class="bi bi-dot fs-2  align-middle" style="color: #B3B3B3; "></i>
@@ -209,7 +209,7 @@ include 'components/main-header.php';
                         </li>
                     </ul>
                 </div>
-                <div class="fs-5">
+                <div class="fs-5 wow fadeInUp" data-wow-delay="0.1s">
                     <h3 class="color-orange ms-1 fw-bold">Включено у вартість</h3>
                     <ul class="ps-0">
                         <li class="pb-2">
@@ -236,7 +236,7 @@ include 'components/main-header.php';
 
                 </div>
             </div>
-            <div class="col-4 px-0">
+            <div class="col-4 px-0 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="pb-3 fs-5">
                     <h3 class="text-dark pb-5"><span class="fw-bold">€1300</span><span class="fs-5"> з особи</span></h3>
                 </div>
@@ -268,7 +268,7 @@ include 'components/main-header.php';
 <section class="pb-5" id="plot">
     <div class="container-fluid">
         <div class="row gx-0">
-            <h1 class="color-orange pb-4 text-center fw-bold">Програма по дням</h1>
+            <h1 class="color-orange pb-4 text-center fw-bold wow fadeInUp" data-wow-delay="0.1s">Програма по дням</h1>
             <!--1 section-->
             <div class="col-12">
                 <div class="row">
@@ -302,17 +302,17 @@ include 'components/main-header.php';
                     </div>
                     <div class="col-6">
                         <div class="row">
-                            <div class="col-12 ps-5 pt-4 pb-0">
-                                <h1 class="text-gray pb-2 display-6">День 1-3</h1>
-                                <div class="py-1">
+                            <div class="col-12 ps-5 pt-2 pb-0">
+                                <h1 class="text-gray pb-2 display-6 wow fadeInUp" data-wow-delay="0.1s">День 1-3</h1>
+                                <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="text-gray position-relative fs-5 fw-bold mb-1">Пляжі Керали</p>
                                     <p class="text-dark">Насолодимося відпочинком на найкращих пляжах Керали - теплі води індійського океану, мальовничі заходи сонця, гамаки під пальмами, фрукти і морепродукти.</p>
                                 </div>
-                                <div class="pb-1">
+                                <div class="pb-1 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="fw-bold text-gray fs-5 mb-1">Аюрведа та СПА</p>
                                     <p class="text-dark">Влаштуємо свято тіла на батьківщині аюрведи та насолодимося комплексом спа-процедур від рук професіоналів.</p>
                                 </div>
-                                <div class="">
+                                <div class=" wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="fw-bold text-gray fs-5 mb-1">Річковий круїз</p>
                                     <p class="text-dark pb-0">Пройдемо на поромі річковими заводами крізь джунглі. Проведемо день і ніч на борту цього плавучого будинку.</p>
                                 </div>
@@ -324,17 +324,17 @@ include 'components/main-header.php';
             <!--2 section-->
             <div class="col-12">
                 <div class="row">
-                    <div class="col-6 ps-5 py-4">
-                        <h1 class="text-gray pb-1 display-6">День 4-5</h1>
-                        <div class="py-1">
+                    <div class="col-6 ps-5 py-3">
+                        <h1 class="text-gray pb-1 display-6 wow fadeInUp" data-wow-delay="0.1s">День 4-5</h1>
+                        <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="text-gray position-relative fs-5 fw-bold mb-1">Чайні плантації</p>
                             <p class="text-dark">Прогуляємося зеленими плантаціями Муннара і насолодимося живими пейзажами, добре знайомими по ілюстраціях на пачках чаю.</p>
                         </div>
-                        <div class="py-1">
+                        <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="fw-bold text-gray fs-5 mb-1">Будиночок на дереві</p>
                             <p class="text-dark">Проведемо ніч у глибині джунглів, далеко від міської суєти, а колисковою нам буде вітер у листі, стрекотіння цикад і шум водоспаду.</p>
                         </div>
-                        <div class="">
+                        <div class=" wow fadeInUp" data-wow-delay="0.1s"">
                             <p class="fw-bold text-gray fs-5 mb-1">Водоспад Атірапіллі</p>
                             <p class="text-dark pb-0">Прогуляємося біля одного з найкрасивіших водоспадів Керали – Атірапаллі – улюбленого місця індійських молодят.</p>
                         </div>
@@ -403,16 +403,16 @@ include 'components/main-header.php';
                     <div class="col-6">
                         <div class="row">
                             <div class="col-12 ps-5 pt-3 pb-0">
-                                <h1 class="text-gray pb-0 display-6">День 6-8</h1>
-                                <div class="pt-0 mt-0">
+                                <h1 class="text-gray pb-0 display-6 wow fadeInUp" data-wow-delay="0.1s">День 6-8</h1>
+                                <div class="pt-0 mt-0 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="text-gray position-relative fs-5 fw-bold my-0">Варанасі</p>
-                                    <p class="text-dark mb-1">Проведемо три дні у Варанасі - місті Світла, місті Мертвих, одному з найдавніших міст світу. Зустрічатимемо світанки і проводимо заходи сонця на березі священної річки Ганг і знайомитимемося з глибинкою справжньої нетуристичної Індії.</p>
+                                    <p class="text-dark mb-1">Проведемо три дні у Варанасі - місті Світла, місті Мертвих, одному з найдавніших міст світу. Зустрічатимемо світанки і проводимо заходи сонця на березі священної річки Ганг.</p>
                                 </div>
-                                <div class="pb-0 py-0 mt-0">
+                                <div class="pb-0 py-0 mt-0 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="fw-bold text-gray fs-5 my-0">Церемонія Араті</p>
                                     <p class="text-dark mb-1">Побачимо у всій красі вогняний ритуал привітання та прощання з сьогоднішнім днем, який регулярно проводять місцеві жерці на площі головного ґхату Варанасі, де й розташований наш готель.</p>
                                 </div>
-                                <div class="mt-0">
+                                <div class="mt-0 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="fw-bold text-gray fs-5 my-0">Вічний вогонь</p>
                                     <p class="text-dark pb-0">Піднімемося на човні вгору Гангом і побачимо похоронні багаття, які горять тут вдень і вночі. Зійдемо на берег і станемо свідками головного обряду в житті кожного індуїста - спалення на березі священного Гангу.</p>
                                 </div>
@@ -425,12 +425,12 @@ include 'components/main-header.php';
             <div class="col-12">
                 <div class="row">
                     <div class="col-6 ps-5 pt-5">
-                        <h1 class="text-gray pb-4 display-6">День 9-11</h1>
-                        <div class="py-1">
+                        <h1 class="text-gray pb-4 display-6 wow fadeInUp" data-wow-delay="0.1s">День 9-11</h1>
+                        <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="text-gray position-relative fs-5 fw-bold mb-1">Храми Камасутри</p>
                             <p class="text-dark">Відвідаємо село Кхаджурахо і розглянемо ліпнину на стінах стародавніх храмів, що зображує всілякі сцени кохання.</p>
                         </div>
-                        <div class="py-1">
+                        <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                             <p class="fw-bold text-gray fs-5 mb-1">День у Агрі</p>
                             <p class="text-dark">Зустрінемо світанок у Тадж Махала і захід сонця в Червоному форті. Влаштуємо костюмовані фотосесії всередині цих всесвітньо відомих споруд.</p>
                         </div>
@@ -461,7 +461,6 @@ include 'components/main-header.php';
                     </div>
                 </div>
             </div>
-
             <!--5 section-->
             <div class="col-12">
                 <div class="row">
@@ -492,12 +491,12 @@ include 'components/main-header.php';
                     <div class="col-6">
                         <div class="row">
                             <div class="col-12 ps-5 pt-5 pb-0">
-                                <h1 class="text-gray pb-4 display-6">День 12-15</h1>
-                                <div class="py-1">
+                                <h1 class="text-gray pb-4 display-6 wow fadeInUp" data-wow-delay="0.1s">День 12-15</h1>
+                                <div class="py-1 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="text-gray position-relative fs-5 fw-bold mb-1">Свято Холі</p>
                                     <p class="text-dark">Відвідаємо головний храм Вріндавану та візьмемо там участь у святкуванні Холі - найяскравішої події в індуїстському календарі.</p>
                                 </div>
-                                <div class="pb-1">
+                                <div class="pb-1 wow fadeInUp" data-wow-delay="0.1s">
                                     <p class="fw-bold text-gray fs-5 mb-1">Шопінг у Делі</p>
                                     <p class="text-dark">Закінчимо нашу подорож традиційним шопінгом – присвятимо цілий день ринкам старого Делі та накупимо купу сувенірів.</p>
                                 </div>
@@ -507,55 +506,54 @@ include 'components/main-header.php';
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <!--end slider-->
 
 <!--Feedbacks-->
 <section class="px-5">
     <div class="container">
-        <h1 class="text-center color-orange pb-3 fw-bold">Фото та відгуки</h1>
-        <h3 class="text-center text-gray pb-5">Звіти про минулі тури до Індії</h3>
+        <h1 class="text-center color-orange pb-3 fw-bold wow fadeInUp" data-wow-delay="0.1s">Фото та відгуки</h1>
+        <h3 class="text-center text-gray pb-5 wow fadeInUp" data-wow-delay="0.1s">Звіти про минулі тури до Індії</h3>
         <div class="row justify-content-center gx-3">
             <div class="col-4">
                 <div class="row">
                     <div class="col-12 pb-3">
-                        <div class="img-container">
+                        <div class="img-container wow fadeInUp" data-wow-delay="0.1s">
                             <img src="img/india-img-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-12 text-center">
-                        <h5 class="text-gray fw-bold">Надія Кірса</h5>
-                        <p class="text-gray fw-bold fs-6">Індія, березень 2015</p>
-                        <p class="text-gray">Цієї весни я ризикнула поїхати в таку далеку та невідому Індію.. і мені пощастило з організаторами! Діти закохані в те, що вони роблять – створюють подорожі для тих, хто хоче дізнатися про культуру країни зсередини. Сумувати не доводилося - ми пливли річкою, їхали пустелею, бродили в джунглях, куштували страви місцевої кухні і відчували себе в гончарному ремеслі. Це була одна з найяскравіших і найяскравіших поїздок!</p>
+                    <div class="col-12 text-center wow">
+                        <h5 class="text-gray fw-bold wow fadeInUp" data-wow-delay="0.1s">Надія Кірса</h5>
+                        <p class="text-gray fw-bold fs-6 wow fadeInUp" data-wow-delay="0.1s">Індія, березень 2015</p>
+                        <p class="text-gray wow fadeInUp" data-wow-delay="0.1s">Цієї весни я ризикнула поїхати в таку далеку та невідому Індію.. і мені пощастило з організаторами! Діти закохані в те, що вони роблять – створюють подорожі для тих, хто хоче дізнатися про культуру країни зсередини. Сумувати не доводилося - ми пливли річкою, їхали пустелею, бродили в джунглях, куштували страви місцевої кухні і відчували себе в гончарному ремеслі. Це була одна з найяскравіших і найяскравіших поїздок!</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="row">
                     <div class="col-12 pb-3">
-                        <div class="img-container">
+                        <div class="img-container wow fadeInUp" data-wow-delay="0.2s">
                             <img src="img/india-img-2.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <h5 class="text-gray fw-bold">Ганна Семко</h5>
-                        <p class="text-gray fw-bold fs-6">Індія, березень 2017</p>
-                        <p class="text-gray">Дякую за здійснення моєї давньої мрії. Індія – справді країна контрастів. І пізнавати її необхідно обов'язково в компанії такого організатора як Святий. Побачити справжню Індію неможливо з вікна автобуса, що кондиціонується або живучи в номері крутого готелю. Потрібно йти в саму гущу подій, що ми й робили щодня, щохвилини. Повне занурення та море вражень! Обов'язково повернуся сюди ще!</p>
+                        <h5 class="text-gray fw-bold wow fadeInUp" data-wow-delay="0.2s">Ганна Семко</h5>
+                        <p class="text-gray fw-bold fs-6 wow fadeInUp" data-wow-delay="0.2s">Індія, березень 2017</p>
+                        <p class="text-gray wow fadeInUp" data-wow-delay="0.2s">Дякую за здійснення моєї давньої мрії. Індія – справді країна контрастів. І пізнавати її необхідно обов'язково в компанії такого організатора як Святий. Побачити справжню Індію неможливо з вікна автобуса, що кондиціонується або живучи в номері крутого готелю. Потрібно йти в саму гущу подій, що ми й робили щодня, щохвилини. Повне занурення та море вражень! Обов'язково повернуся сюди ще!</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="row">
                     <div class="col-12 pb-3">
-                        <div class="img-container">
+                        <div class="img-container wow fadeInUp" data-wow-delay="0.3s">
                             <img src="img/india-img-3.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 text-center">
-                        <h5 class="text-gray fw-bold">Ірина Вале</h5>
-                        <p class="text-gray fw-bold fs-6">Індія, листопад 2018</p>
-                        <p class="text-gray">Їздила з хлопцями до Індії, організація туру чудова, безпечна та весела. Провели там 2 тижні, програма насичена, щодня багато активностей. Свят у всьому допомагав, ні про що не треба було турбуватися. Якщо їхати до Індії вперше, то раджу саме із Story Travel.</p>
+                        <h5 class="text-gray fw-bold wow fadeInUp" data-wow-delay="0.3s">Ірина Вале</h5>
+                        <p class="text-gray fw-bold fs-6 wow fadeInUp" data-wow-delay="0.3s">Індія, листопад 2018</p>
+                        <p class="text-gray wow fadeInUp" data-wow-delay="0.3s">Їздила з хлопцями до Індії, організація туру чудова, безпечна та весела. Провели там 2 тижні, програма насичена, щодня багато активностей. Свят у всьому допомагав, ні про що не треба було турбуватися. Якщо їхати до Індії вперше, то раджу саме із Story Travel.</p>
                     </div>
                 </div>
             </div>
@@ -565,7 +563,6 @@ include 'components/main-header.php';
 <!--End Feedbacks-->
 
 <!---->
-
 <section class="pt-5">
     <div class="container-fluid px-5">
         <div class="row gx-lg-0 gx-0 pb-2 ">
@@ -578,8 +575,8 @@ include 'components/main-header.php';
                                 <div class="bright-img block-india">
                                     <img src="img/img-india-1.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
-                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Индия</p>
-                                        <p class="text-white fs-5 shadow_text fw-bold">Ноябрь 2018</p>
+                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
+                                        <p class="text-white fs-5 shadow_text fw-bold">Листопад 2018</p>
                                     </div>
                                 </div>
                             </div>
@@ -612,8 +609,8 @@ include 'components/main-header.php';
                                 <div class="bright-img block-india">
                                     <img src="img/img-india-2.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
-                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Индия</p>
-                                        <p class="text-white fs-5 shadow_text fw-bold">Март 2017</p>
+                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
+                                        <p class="text-white fs-5 shadow_text fw-bold">Березень 2017</p>
                                     </div>
                                 </div>
                             </div>
@@ -646,8 +643,8 @@ include 'components/main-header.php';
                                 <div class="bright-img block-india">
                                     <img src="img/img-india-3.jpg" alt="">
                                     <div class="d-inline text-center position-absolute top-50 start-50 translate-middle inner" >
-                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Индия</p>
-                                        <p class="text-white fs-5 shadow_text fw-bold">Март 2015</p>
+                                        <p class="text-white fs-1 mb-0 shadow_text fw-bold">Індія</p>
+                                        <p class="text-white fs-5 shadow_text fw-bold">Березень 2015</p>
                                     </div>
                                 </div>
                             </div>
@@ -678,8 +675,8 @@ include 'components/main-header.php';
 <!--whyWithMe-->
 <section class="py-5" style="background-color: #ececec;" id="organizator">
     <div class="container">
-        <h1 class="color-orange text-center pb-2 fw-bold">Організатор подорожі</h1>
-        <h5 class="text-gray fw-bold pb-5 text-center">Автор пригод та супроводжуючий</h5>
+        <h1 class="color-orange text-center pb-2 fw-bold wow fadeInUp" data-wow-delay="0.1s">Організатор подорожі</h1>
+        <h5 class="text-gray fw-bold pb-5 text-center wow fadeInUp" data-wow-delay="0.1s">Автор пригод та супроводжуючий</h5>
         <div class="row">
             <div class="col-sm-12 col-lg-6 text-center">
                 <img src="img/team_sviat.jpg" alt="" width="510" height="500" class="img-fluid">
@@ -692,26 +689,182 @@ include 'components/main-header.php';
     </div>
 </section>
 
-
 <!--before footer-->
 <section class="py-5">
-    <div class="container text-center">
+    <div class="container text-center wow fadeInUp" data-wow-delay="0.1s">
         <h2 class="text-gray">Підписуйтесь на нас - <a href=""><span class="color-orange"><i class="bi bi-instagram color-orange fs-6 align-middle"></i> storytravel.ua</span></a></h2>
     </div>
 </section>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-md-6 d-none d-md-block ">
+                    <img class="img-fluid" src="https://storytravel.ua/wp-content/uploads/2022/06/india_form.jpg"
+                         alt="">
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="d-flex justify-content-end m-2 ">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class=" text-center ">
+                        <h5 class="modal-title f30  colorange" id="exampleModalLabel">Дізнатися більше</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Дати подорожі</option>
+                                    <option value="1">24.02.2023-30.02.2023</option>
+                                </select>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="І'мя">
+                                <label for="floatingInput">І'мя<span class="required">*</span> </label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                       placeholder="Прізвище">
+                                <label for="floatingPassword">Прізвище</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Email">
+                                <label for="floatingPassword">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                       placeholder="Password">
+                                <label for="floatingPassword">Telegram або Viber<span class="required">*</span></label>
+                            </div>
+                            <div class=" d-grid gap-2 ">
+                                <button type="button" class="btn  btn-danger">Відправити</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div style="background-image: url(https://storytravel.ua/wp-content/uploads/2022/12/swiss_head_bg.webp);" class="container-fluid  ">
+    <div class="row blur pt100 pb100">
+        <div class="col-lg-6 col-md-12">
+            <div class="pl25 pr25">
+                <div class="text-start mx-auto wow fadeInUp fb50 pb-3 colwhite " data-wow-delay="0.1s"
+                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    FAQ про подорож
+                </div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header " id="flush-headingOne ">
+                            <button class="accordion1-button collapsed h90" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Які люди подородують з нами?
+                            </button>
+                        </h2>
+                        <div  id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div  class="accordion-body ts colwhite">Наші роудтріпи – для любителів активного відпочинку на природі за будь-якої погоди. Для тих, хто готовий виходити за межі звичного і комфортного заради нового досвіду, знайомств та історій про себе.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion1-button h90 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Які вимоги до фізичної форми?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body colwhite ts">Окрім щоденних піших прогулянок по кілька кілометрів, в цій подорожі буде 4 хайкінги середнього рівню складності (по 4-5 годин з привалами) та прогулянка віа-ферратою, де задіяні і руки і ноги.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion1-button h90 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Рівень комфорту в подорожі?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body colwhite ts">По 4 учасника на авто середнього розміру – розприділяємо враховуючи вік та водійський досвід. Багажник розрахований на ручні поклажі (рюкзаки або невеликі валізи). Житло, в основному, теж 4-місне (котеджі, апартаменти, гестхауси) із самостійним приготуванням їжі. Інколи бувають 2-місні номери або сніданки від готелю за доплату. Обідаємо зазвичай на природі з ланчбоксів, але трапляються і кафе/ресторани, коли ночівля - в цивілізації.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion1-button h90 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Що з речей брати в поїздку?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body colwhite ts">Якісне та зручне трекінгове взуття; Вологостійка куртка, штани, фліска; Легкий комплект – шорти, кросівки; Сонцезахисні окуляри, крем, головний убор; Маленький термос, ланчбокс, ложка.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion1-button h90 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Умови оплати/скасування?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body colwhite ts">Після заявки на сайті, ми підкажемо в телеграмі логістику до точки старту і попросимо фотку заграна для оформлення договору. Аванс оплачується в грн на рахунок ФОП, решта – готівкою у валюті в перший день. У разі відмови, залежно від часу до старту, можна частково або повністю перенести депозит на майбутні подорожі з нами.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+<!-- wow fadeInUp" data-wow-delay="0.1s"-->
+        </div>
+        <div class="col-lg-6 col-md-12   ">
+            <div class="">
+                <div class="text-center mx-auto wow fadeInUp fb50 pb-3 colwhite " data-wow-delay="0.1s"
+                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    Залишилось питання?
+                </div>
+                <div  class="modal-body">
+                    <div class="row justify-content-center align-items-center">
+                        <form class="mw700">
+                            <div class="form-floating mb-3">
+                                <input  type="email" class="form-control blur1 br3 " id="floatingInput" placeholder="І'мя">
+                                <label for="floatingInput">І'мя<span class="required">*</span> </label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control  blur1  br3 " id="floatingPassword" placeholder="Password">
+                                <label for="floatingPassword">Telegram або Viber<span class="required">*</span></label>
+                            </div>
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control  blur1  br3 " placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Ваше питання<span class="required">*</span></label>
+                            </div>
+
+                            <div class=" d-grid gap-2 nav-menu ">
+                                <button type="button" class="btn btn-danger">Відправити</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-orange btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
 
 <!-- Footer Start -->
 <?php
 include 'components/footer.php';
 ?>
 <!-- Footer End -->
-
-
-
-
-<!-- Back to Top -->
-<!--<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-        class="bi bi-arrow-up"></i></a>-->
 
 
 <!-- JavaScript Libraries -->

@@ -23,12 +23,14 @@
             $('.dropdown a').addClass('textChangeColor');
             $('.d-inline-flex a').addClass('textChangeColor');
             $('.logo-img').addClass('dark_logo');
+            $('.back-to-top').addClass('opacity-0');
         } else {
             $('.sticky-top').removeClass('bgNavColor');
             $('.navbar-nav a').removeClass('textChangeColor');
             $('.dropdown a').removeClass('textChangeColor');
             $('.d-inline-flex a').removeClass('textChangeColor');
             $('.logo-img').removeClass('dark_logo');
+            $('.back-to-top').removeClass('opacity-0');
         }
 
     });

@@ -18,7 +18,6 @@ $(window).onmouseover(function () {
 
 });
 
-
 /*active nav-link*/
 const langButtons = document.querySelectorAll("[data-btn]");
 const allLangs = ["ua", "en"];
