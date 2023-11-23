@@ -34,10 +34,10 @@
                         <a href="../index.html" class="footer-text">Подорожі</a>
                     </div>
                     <div class="col-3 col-md-12 mb-md-3 text-md-start">
-                        <a href="../pages/stories.php" class="footer-text">Історії </a>
+                        <a href="../pages/stories.html" class="footer-text">Історії </a>
                     </div>
                     <div class="col-3 col-md-12 mb-md-3 text-md-start text-start">
-                        <a href="../pages/about.php" class="footer-text">Про мене</a>
+                        <a href="../pages/about.html" class="footer-text">Про мене</a>
                     </div>
                 </div>
             </div>

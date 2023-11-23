@@ -20,12 +20,12 @@
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../pages/stories.php">Історії</a>
+                                    <a class="textChangeColor" href="../pages/stories.html">Історії</a>
                                 </span>
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../pages/about.php">Про мене</a>
+                                    <a class="textChangeColor" href="../pages/about.html">Про мене</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -64,8 +64,8 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
                     <a href="../index.html" class="nav-item nav-link text-white">Подорожі</a>
-                    <a href="../pages/stories.php" class="nav-item nav-link text-white">Історії</a>
-                    <a href="../pages/about.php" class="nav-item nav-link text-white">Про мене</a>
+                    <a href="../pages/stories.html" class="nav-item nav-link text-white">Історії</a>
+                    <a href="../pages/about.html" class="nav-item nav-link text-white">Про мене</a>
                     <a class="nav-link text-white" href="">
                         <i class="bi bi-instagram"></i>
                     </a>

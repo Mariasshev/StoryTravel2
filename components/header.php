@@ -21,12 +21,12 @@
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../pages/stories.php">Історії</a>
+                                    <a class="textChangeColor" href="../pages/stories.html">Історії</a>
                                 </span>
                             </li>
                             <li class="list py-3">
                                 <span>
-                                    <a class="textChangeColor" href="../pages/about.php">Про мене</a>
+                                    <a class="textChangeColor" href="../pages/about.html">Про мене</a>
                                 </span>
                             </li>
                             <li class="list py-3">
@@ -64,9 +64,9 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav d-inline-flex">
-                    <a href="../index.html" class="nav-item nav-link textChangeColor">Подорожі</a>
-                    <a href="../pages/stories.php" class="nav-item nav-link textChangeColor">Історії</a>
-                    <a href="../pages/about.php" class="nav-item nav-link textChangeColor">Про мене</a>
+                    <a href="index.html" class="nav-item nav-link textChangeColor">Подорожі</a>
+                    <a href="pages/stories.html" class="nav-item nav-link textChangeColor">Історії</a>
+                    <a href="pages/about.html" class="nav-item nav-link textChangeColor">Про мене</a>
                     <a class="nav-link textChangeColor" href="">
                         <i class="bi bi-instagram"></i>
                     </a>
@@ -85,35 +85,3 @@
     </div>
 </div>
 <!-- Navbar End -->
-<!--<div class="row justify-content-center gy-1">
-                            <div class="col-12">
-                                <a href="../#travels" class="nav-item nav-link textChangeColor">Подорожі</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="../pages/stories.php" class="nav-item nav-link textChangeColor">Історії</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="../about.php" class="nav-item nav-link textChangeColor">Про мене</a>
-                            </div>
-                            <div class="col text-end pe-0">
-                                <a class="nav-link textChangeColor fs-5" href="">
-                                    <i class="bi bi-instagram"></i>
-                                </a>
-                            </div>
-                            <div class="col text-start ps-0">
-                                <a class="nav-link textChangeColor fs-5" href="">
-                                    <i class="bi bi-telegram"></i>
-                                </a>
-                            </div>
-                            <div class="col-12">
-                                <a href="#" class="nav-item nav-link textChangeColor">+380 67 958 39 81</a>
-                            </div>
-                            <div class="col-12">
-                                <a href="#" class="nav-item nav-link textChangeColor">info@storytravel.ua</a>
-                            </div>
-                            <div class="col text-end pe-0">
-                                <a class="nav-link active textChangeColor" href="#">UA</a>
-                            </div>
-                            <div class="col text-start ps-0">
-                                <a class="nav-link textChangeColor" href="#">EN</a>
-                            </div>-->
