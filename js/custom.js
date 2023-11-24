@@ -27,7 +27,7 @@ let currentLang =
 
 
 
-// Вешаем обработчики на каждую кнопку
+// обработчики на каждую кнопку
 langButtons.forEach((a) => {
     a.addEventListener("click", (event) => {
         if (!event.target.classList.contains("active")) {
